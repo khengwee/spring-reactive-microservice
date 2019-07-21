@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "John Smith",
+    "segment": "Priority"
+  },
+  {
+    "id": "2",
+    "name": "Tailor Swift",
+    "segment": "Personal"
+  }
+]

@@ -1,0 +1,37 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /api
+
+spring:
+  security:
+    user:
+      name: kiwiuser
+      password: ENC(eiHqadpUCkEV8ioxTSjUYX7Eqog7fz10ynW87FG6ZFg=) # password
+    auth-url-path-pattern: /api/*/**
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oaivx2uysUxzlFvd0h7
+            client-secret: jdo1xC5AXlgsR5Wy4zNz82MoO9_kxPZX1gGkVa7d
+            authorization-grant-type: client_credentials
+            scope: customer_read
+        provider:
+          okta:
+            token-uri: https://dev-517011.oktapreview.com/oauth2/default/v1/token
+
+backend:
+  client:
+    customerResourceUrl: http://localhost:8090/api/resource/customers
+
+jasypt:
+  encryptor:
+    providerName: BC
+    providerClassName: org.bouncycastle.jce.provider.BouncyCastleProvider
+    algorithm: PBEWITHSHA256AND256BITAES-CBC-BC
+    password: supersecretzomfuser
+
+logging:
+  level:
+    web: debug

@@ -1,0 +1,12 @@
+[
+  {
+    "accountNo": "12345",
+    "accountType": "Savings Account",
+    "accountStatus": "Active"
+  },
+  {
+    "accountNo": "1234567",
+    "accountType": "Current Account",
+    "accountStatus": "Dormant"
+  }
+]
