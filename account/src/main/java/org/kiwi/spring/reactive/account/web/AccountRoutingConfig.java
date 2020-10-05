@@ -17,7 +17,7 @@ public class AccountRoutingConfig {
 	private String contextPath;
 
 	@Bean
-	public RouterFunction<ServerResponse> orderRoutes(AccountHandler accountHandler) {
+	public RouterFunction<ServerResponse> accountRoutes(AccountHandler accountHandler) {
 		return route().path(contextPath, builder -> builder
 			.GET("/accounts", accept(MediaType.APPLICATION_JSON), accountHandler::findAll)
 			.GET("/accounts/{accountNo}", accept(MediaType.APPLICATION_JSON), accountHandler::findOne)

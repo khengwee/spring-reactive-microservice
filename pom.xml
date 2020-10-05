@@ -30,7 +30,7 @@
         <java.version>1.8</java.version>
 
 		<!-- DEPENDENCIES VERSION -->
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <mapstruct.version>1.3.0.Final</mapstruct.version>
         <caffeine.version>2.6.2</caffeine.version>
 		<wiremock.version>2.19.0</wiremock.version>
 		<reactor-extra.version>3.2.2.RELEASE</reactor-extra.version>
