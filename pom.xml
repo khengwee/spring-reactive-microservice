@@ -36,7 +36,7 @@
 		<reactor-extra.version>3.2.2.RELEASE</reactor-extra.version>
 		<reactor-test.version>3.2.5.RELEASE</reactor-test.version>
         <awaitility.version>3.1.5</awaitility.version>
-		<commons-io.version>2.6</commons-io.version>
+		<commons-io.version>2.7</commons-io.version>
 		<jasypt-spring-boot-starter.version>2.0.0</jasypt-spring-boot-starter.version>
 		<bouncycastle.version>1.60</bouncycastle.version>
         <h2.db.version>1.4.199</h2.db.version>
